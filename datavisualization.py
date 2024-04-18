@@ -1,6 +1,6 @@
 print("data visualization--------------")
 import matplotlib.pyplot as plt
-from feature_engineering import fea_eng
+# from feature_engineering import fea_eng
 from data_cleaning import data_cleaning
 from data_analysis import data_analysis
 import pandas as pd
@@ -17,7 +17,7 @@ import io
 from PIL import Image
 
 def data_vis():
-    data = fea_eng()
+    data = data_cleaning()
 
     column=list(data.columns)
     column_to_remove = ["Profit", "Category", "Ship Mode", "Segment", "Region", "Discount"]
