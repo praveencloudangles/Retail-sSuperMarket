@@ -1,10 +1,10 @@
 print("feature engineer-------------------")
-from data_cleaning import data_cleaning
+from data_cleaning import datavisualization
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
 def fea_eng():
-    data = data_cleaning()
+    data = datavisualization()
 
     label_encoder = LabelEncoder()
 
